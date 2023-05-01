@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="astyles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="navcontainer">
+
+            <ul class = "logo">Custoo</ul>
+
+        <div class="navbar">
+            
+            <ul>
+                <li><a class = "home" href="index.html">HOME</a></li>
+                <li><a class = "active" href="about.html">ABOUT US</a></li>
+                <li><a href="products.html">PRODUCTS</a> </li>
+                <li><a href="cart.html">CART</a> </li>
+            </ul>
+            
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div class="aboutcontent">
+            <h2>Who are we?</h2>
+            <p>
+                We are a team of passionate individuals who believe that a great 
+                t-shirt can make a big difference. Our goal is to offer you high-quality 
+                t-shirts that not only look good but feel good too.
+                We ensure that the quality of our products meet the specifications of our customers.
+                We're constantly updating our collection of t-shirts, so be sure to check back often
+                to see what's new. We also offer exclusive discounts and promotions to our email subscribers,
+                so be sure to sign up for our newsletter.
+
+                If you have any feedback or suggestions, please don't hesitate to reach out to us.
+                We value your input and are always looking for ways to improve.
+            </p>
+        </div>
+
+        <br><br><br><br><br>
+        <div class="footer">
+            <div class="contact">   
+                <ul><a class = "active" href="about.html">About Us</a></ul>
+                <ul><a href="about.html">Contact Us</a></ul>
+                <ul><a href="products.html">Our Products</a></ul>
+            </div>
+
+            <div class="addr">
+                <h4>Contact Us</h6>
+                <p>Osmania University,</p>
+                <p>Amberpet, Hyderabad,Telangana</p>
+            </div>
+
+            <div class="address">
+                <p>Department of ECE,</p>
+                <p>College of Engineering,</p>
+                <p>Osmania University.</p>
+            </div>
+
+            <div class="newsletter">
+                <p>Subscribe to our newsletter</p>
+                <br>
+                <form action="">
+                    <label for="email">Email</label>
+                    <input id="box" type="text">
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+            
+        }
+    </script>
+    
+</body>
+</html>
